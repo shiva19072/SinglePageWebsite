@@ -1,0 +1,26 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    scroll-padding-top: 70px;
+  }
+  body{
+    overflow-x: hidden;
+  }
+  .carousel-inner{
+  
+    background-repeat: no-repeat;
+    object-fit: cover;
+  }
+  .iconcolor{
+    color:purple;
+    font-size: 80pt;
+  }
+  .links{
+    font-size: 30pt;
+  }
+  .font{
+    font-family:'Kristen ITC';
+  }
+  

@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <title>Single Page Website</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+   
+<!--navbar-->
+    <nav class="navbar navbar-expand-lg fixed-top bg-body-tertiary p-3" data-bs-theme="dark">
+      <a class="navbar-brand font fs-5" href="#">
+        <img src="images/icon.png" alt="Logo" width="30" height="30" class="d-inline-block align-text-top mx-2">
+        P H O E N I X
+      </a>
+     
+        <!--collapse-->
+        <button class="navbar-toggler p-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbar1" id="togglebutton">
+          <i class="bi bi-list" id="icon"></i>
+        </button>
+        <!--collapse menu-->
+        <div class="collapse navbar-collapse" id="navbar1">
+          
+            <ul class="nav nav-underline navbar-nav ms-auto mb-2 mb-lg-0  ">
+              <li class="nav-item">
+                <a class="nav-link" href="#home">Home</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#about-us">About Us</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#team">Our Team</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+
+              
+            </ul>
+
+        </div>
+    
+    </nav>
+   <!--home(top)-->
+    <div class="home container-fluid mt-4 pt-5 px-0" id="home">
+      
+    <!--carousel-->
+    <div id="carouselExampleAutoplaying" class="carousel slide carousel-fade" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+     
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="3000">
+          <img src="images/firstbg.jpg" class="w-100" alt="first">
+          <div class="carousel-caption ">
+            <h4 class="text-center font">Welcome to Single Page Website</h4>
+            <p class="text-center">This website is built using HTML, CSS, Bootstrap
+            and javascript. This project is responsive for various screens.
+            </p>
+          </div>
+        </div>
+        
+        <div class="carousel-item" data-bs-interval="3000">
+          <img src="images/clientbg.jpg" class="w-100" alt="second">
+          <div class="carousel-caption d-block">
+            <h4 class="text-center font">Experts You Can Trust</h4>
+            <p class="text-center">Our team of experienced professionals brings 
+              knowledge across a wide range of technologies.
+            </p>
+            <a href="#team" class="btn btn-primary mt-1 text-center" role="button">Learn More</a>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="3000">
+          <img src="images/contactus.jpg" class="w-100" alt="third">
+          <div class="carousel-caption ">
+            <h4 class="text-center font">Ready to collaborate on innovative and exciting projects.</h4>
+            <p class="text-center">Get in touch for a free consultation and start your journey with us.
+            </p>
+            <a href="#contact" class="btn btn-primary mt-1 text-center" role="button">Contact Us</a>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+  </div>
+
+
+       <!--About us-->
+      <section class="container-fluid p-3" id="about-us">
+        <p class="display-3 text-center mt-4">About Us</p>
+
+        <div class="row my-5">
+          <div class="col-md-4">
+            <div class="container p-3">
+              <img src="images/aboutus.jpg" class="d-block w-100" alt="aboutus"/>
+            </div>
+          </div>
+          <div class="col-md-8">
+            <p class="lead">
+              Welcome to the exciting project of creating a single page portfolio website! In today's digital age, having an online presence is essential for professionals to showcase their skills, expertise, and achievements. A portfolio website serves as a powerful tool to establish credibility, attract potential clients or employers, and expand one's professional network.
+This project is aimed at designing and developing a simple single page portfolio website.This project helps to showcase acheivements and many more interesting details about a company in an online single page website.
+            </p>
+          </div>
+        </div>
+
+        <!--unique icons-->
+        <div class="row my-5">
+          <h6 class="display-5 text-center">What Makes Us Unique</h6>
+          <div class="col-md-4">
+            <div class="container text-center">
+              <span class="bi bi-person icon-lg iconcolor" ></span>
+              <p>Custom Tailored User Options</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="container text-center">
+              <span class="bi bi-shield-shaded icon-lg iconcolor"></span>
+              <p>Privacy First Approach</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="container text-center">
+              <span class="bi bi-list icon-lg iconcolor"></span>
+              <p>Multiple Variations</p>
+            </div>
+          </div>
+        </div>
+      </section> 
+
+
+        <!--team-->
+        <section id="team" class="container-fluid">
+          <h6 class="display-5 text-center">Our Innovative Team</h6>
+
+          <div class="container-fluid p-5">
+            <div class="row row-col-3 align-items-center g-3">
+
+              <div class="col-md-12 col-lg-4 col-12 d-flex align-items-center justify-content-center">
+                <div class="card highlight" >
+                  <img class="card-img-top" src="images/personicon.JPG">
+                  <div class="card-body">
+                    <h4 class="card-title">John Miller</h4>
+                    <p class="card-text">
+                      Our Team Leader John is well experienced Full Stack Developer 
+                      <ul class="list-unstyled">
+                        <li><b>Designation:</b> Full-Stack Developer</li>
+                       <li><b>Key Role:</b> Team Leader</li>
+                       <li><b>Experience:</b> 8 Years</li>
+                       <li><b>Email:</b> John91@gmail.com</li>
+                       <li><b>Contact Number:</b> 9542845127</li>
+                      </ul>
+                    </p>
+                    <div class="links text-center">
+                      <a href="https://www.facebook.com/"><i class="bi bi-facebook icon-sm m-2"></i></a>
+                      <a href="https://www.instagram.com/"><i class="bi bi-instagram icon-sm m-2" style="color: rgb(221, 42, 99);"></i></a>
+                      <a href="https://www.linkedin.com/"><i class="bi bi-linkedin icon-sm m-2" style="color: blue;"></i></a>
+                  </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-12 col-lg-4 col-12 d-flex align-items-center justify-content-center">
+                <div class="card highlight">
+                  <img class="card-img-top" src="images/personicon.JPG">
+                  <div class="card-body">
+                    <h4 class="card-title">Samuel Brooks</h4>
+                    <p class="card-text">
+                      Our Team Member Samuel is well experienced Front-End Developer
+                      <ul class="list-unstyled">
+                        <li><b>Designation:</b> Front-end Developer</li>
+                       <li><b>Key Role:</b> Team Member</li>
+                       <li><b>Experience:</b> 3 Years</li>
+                       <li><b>Email:</b> samuel23@gmail.com</li>
+                       <li><b>Contact Number:</b> 9142895127</li>
+                      </ul>
+                    </p>
+                    <div class="links text-center">
+                      <a href="https://www.facebook.com/"><i class="bi bi-facebook icon-sm m-2"></i></a>
+                      <a href="https://www.instagram.com/"><i class="bi bi-instagram icon-sm m-2" style="color: rgb(221, 42, 99);"></i></a>
+                      <a href="https://www.linkedin.com/"><i class="bi bi-linkedin icon-sm m-2" style="color: blue;"></i></a>
+                  </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-12 col-lg-4 col-12 d-flex align-items-center justify-content-center">
+                <div class="card highlight">
+                  <img class="card-img-top" src="images/personicon.JPG">
+                  <div class="card-body">
+                    <h4 class="card-title">Robin Foster</h4>
+                    <p class="card-text">
+                      Our Team Member Robin is well-experienced Back-End Developer
+                      <ul class="list-unstyled">
+                        <li><b>Designation:</b> Web Designer</li>
+                       <li><b>Key Role:</b> Team Member</li>
+                       <li><b>Experience:</b> 4 Years</li>
+                       <li><b>Email:</b> robin14@gmail.com</li>
+                       <li><b>Contact Number:</b> 8049895189</li>
+                      </ul>
+                    </p>
+                    <div class="links text-center">
+                      <a href="https://www.facebook.com/"><i class="bi bi-facebook icon-sm m-2"></i></a>
+                      <a href="https://www.instagram.com/"><i class="bi bi-instagram icon-sm m-2" style="color: rgb(221, 42, 99);"></i></a>
+                      <a href="https://www.linkedin.com/"><i class="bi bi-linkedin icon-sm m-2" style="color: blue;"></i></a>
+                  </div>
+                  </div>
+                </div>
+              </div>
+        </section>
+
+        <!--contact-->
+        <section id="contact" class="container p-3">
+          <p class="display-5 text-center">Contact Us :</p>
+          
+          <div class="row">
+            <div class="col-md-12">
+              <div class="container p-3">
+                <div class="text-black-s text-center fs-4 fontstyle1">Email:</div>
+                <div class="text-black-50 text-center fs-5 mb-2">phoenix@gmail.com</div>
+                <div class="text-black-s text-center fs-5 fontstyle1"> Call Us:</div>
+                <div class="text-black-50 text-center fs-5">+91 8476943226</div>
+                
+              </div>
+            </div>
+            <div class="col-md-12">
+              <div class="container p-3">
+                <p class="text-muted text-center fs-3">Enter your Details</p>
+                <div class="container">
+                  <div class="card shadow">
+                    <div class="card-body p-4">
+                      <!--Form for contact-->
+                      <form onsubmit="return validate()">
+                        <div class="form-group mb-2">
+                          <label for="name" class="form-label">Name</label>
+                          <input type="text" class="form-control" name="name" id="name" autocomplete="name" autocapitalize="words" placeholder="Full Name"pattern="[A-Za-z\s]+" title="Name must not contain numbers" required>
+                        </div>
+                        <div class="form-group mb-2">
+                          <label for="email" class="form-label">Email</label>
+                          <input type="email" class="form-control" name="email" id="email" autocomplete="email" placeholder="Ex: @gmail,@yahoo,@outlook..." required>
+                        </div>
+                        <div class="form-group mb-2">
+                          <label for="subject" class="form-label">Subject</label>
+                          <input type="text" class="form-control" name="subject" id="subject" oninput="updatecount()" maxlength="200" autocomplete="off" placeholder="Your Message..." required>
+                          <span id="charCount" class="char-count" style="float: right;"></span>
+                        </div>
+                        <div class="form-group text-center mt-5">
+                          <input type="submit" class="btn btn-outline-dark" value="Send message">
+                        </div>
+                      </form>
+
+
+                       <!--Modal for successful form submit-->
+                      <div class="modal" id="successModal" tabindex="-1" aria-labelledby="successModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" style="color: green;">Success</h5>
+                            </div>
+                            <div class="modal-body">
+                              <span id="modalmessage"></span>
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-outline-dark" data-bs-dismiss="modal">Close</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+
+
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+        </section>
+        
+   
+  <!--footer-->
+  <div class="container-fluid bg-dark p-3">
+    <div class="container m-2">
+      <div class="row row-col-2">
+        <!--Address-->
+        <div class="col-lg-6 col-12">    
+              <p class="text-white"><i class="bi bi-building-fill"></i>
+                <b class="fs-5 lead">Address : </b></p>  
+              <p class="text-white px-4">
+             H-No:12-83-90, Medbowli, Balapur, Hyderabad, Ranga reddy, Telangana, 500097.
+              </p>
+        </div>
+
+        <!--Quick links-->
+        <div class="col-lg-6 col-12">
+            <p class="text-white fs-5 lead"><i class="bi bi-link-45deg"></i> Quick Links :</p>
+            <ul class="list-unstyled px-4">
+              <li><a href="#about-us" class="text-decoration-underline">About Us</a></li>
+              <li><a href="#contact" class="text-decoration-underline">Contact Us</a></li>
+            </ul>
+          
+        </div>
+       </div>
+       <!--Social media-->
+        <div class="row mt-4">
+          <p class="text-white fs-5 lead text-center"> Follow Us On :</p>
+
+          <div class="col links text-center">
+            <a href="https://www.facebook.com/"><i class="bi bi-facebook icon-sm m-2"></i></a>
+            <a href="https://www.instagram.com/"><i class="bi bi-instagram icon-sm m-2" style="color: rgb(221, 42, 99);"></i></a>
+            <a href="https://www.linkedin.com/"><i class="bi bi-linkedin icon-sm m-2" style="color: blue;"></i></a>
+          </div>
+        </div>
+
+        <div class="row mt-4">
+          <div class="text-white text-center">
+            <p>All rights reserve &copy 2023, <a href="#">Phoenix</a></p>
+          </div>
+        </div>
+
+        
+      
+    </div>
+  </div>
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+</body>
+
+</html>
